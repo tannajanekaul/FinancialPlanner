@@ -13,6 +13,7 @@
 		441300FC216A99CC000BE6BC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441300FB216A99CC000BE6BC /* ProfileViewController.swift */; };
 		441300FE216A9BBF000BE6BC /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441300FD216A9BBF000BE6BC /* TransactionViewController.swift */; };
 		44130100216A9BDE000BE6BC /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441300FF216A9BDE000BE6BC /* BudgetViewController.swift */; };
+		442225B32178FA2C009B5436 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442225B22178FA2C009B5436 /* Profile.swift */; };
 		44DA2B6621695FDA002E06C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA2B6521695FDA002E06C4 /* AppDelegate.swift */; };
 		44DA2B6821695FDA002E06C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA2B6721695FDA002E06C4 /* ViewController.swift */; };
 		44DA2B6B21695FDA002E06C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DA2B6921695FDA002E06C4 /* Main.storyboard */; };
@@ -26,20 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		441300F0216A96B5000BE6BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 441300EB216A96B5000BE6BC /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
-			remoteInfo = Charts;
-		};
-		441300F2216A96B5000BE6BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 441300EB216A96B5000BE6BC /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
-			remoteInfo = ChartsTests;
-		};
 		44DA2B7721695FDB002E06C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 44DA2B5A21695FDA002E06C4 /* Project object */;
@@ -60,11 +47,11 @@
 		0C3D2D79A4187B014525CB5C /* Pods-FinancialPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancialPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinancialPlanner/Pods-FinancialPlanner.release.xcconfig"; sourceTree = "<group>"; };
 		1C03C58FA3BE930D9D63161E /* Pods-FinancialPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancialPlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinancialPlanner/Pods-FinancialPlanner.debug.xcconfig"; sourceTree = "<group>"; };
 		441300E9216A920A000BE6BC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		441300EB216A96B5000BE6BC /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../../Desktop/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 		441300F9216A99A9000BE6BC /* SpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingViewController.swift; sourceTree = "<group>"; };
 		441300FB216A99CC000BE6BC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		441300FD216A9BBF000BE6BC /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		441300FF216A9BDE000BE6BC /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		442225B22178FA2C009B5436 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		44DA2B6221695FDA002E06C4 /* FinancialPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DA2B6521695FDA002E06C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DA2B6721695FDA002E06C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,15 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		441300EC216A96B5000BE6BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				441300F1216A96B5000BE6BC /* Charts.framework */,
-				441300F3216A96B5000BE6BC /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		44DA2B5921695FDA002E06C4 = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +137,10 @@
 				44DA2B7121695FDA002E06C4 /* Info.plist */,
 				44DA2B9321696048002E06C4 /* GoogleService-Info.plist */,
 				441300E9216A920A000BE6BC /* LogInViewController.swift */,
-				441300EB216A96B5000BE6BC /* Charts.xcodeproj */,
 				441300FB216A99CC000BE6BC /* ProfileViewController.swift */,
 				441300FD216A9BBF000BE6BC /* TransactionViewController.swift */,
 				441300FF216A9BDE000BE6BC /* BudgetViewController.swift */,
+				442225B22178FA2C009B5436 /* Profile.swift */,
 			);
 			path = FinancialPlanner;
 			sourceTree = "<group>";
@@ -305,12 +283,6 @@
 			mainGroup = 44DA2B5921695FDA002E06C4;
 			productRefGroup = 44DA2B6321695FDA002E06C4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 441300EC216A96B5000BE6BC /* Products */;
-					ProjectRef = 441300EB216A96B5000BE6BC /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				44DA2B6121695FDA002E06C4 /* FinancialPlanner */,
@@ -319,23 +291,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		441300F1216A96B5000BE6BC /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 441300F0216A96B5000BE6BC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		441300F3216A96B5000BE6BC /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 441300F2216A96B5000BE6BC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		44DA2B6021695FDA002E06C4 /* Resources */ = {
@@ -409,12 +364,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FinancialPlanner/Pods-FinancialPlanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +411,7 @@
 				441300FE216A9BBF000BE6BC /* TransactionViewController.swift in Sources */,
 				44DA2B6621695FDA002E06C4 /* AppDelegate.swift in Sources */,
 				441300FC216A99CC000BE6BC /* ProfileViewController.swift in Sources */,
+				442225B32178FA2C009B5436 /* Profile.swift in Sources */,
 				441300FA216A99A9000BE6BC /* SpendingViewController.swift in Sources */,
 				441300EA216A920A000BE6BC /* LogInViewController.swift in Sources */,
 			);

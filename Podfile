@@ -7,6 +7,8 @@ target 'FinancialPlanner' do
 
   # Pods for FinancialPlanner
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   target 'FinancialPlannerTests' do
     inherit! :search_paths
     # Pods for testing
